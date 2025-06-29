@@ -1,4 +1,4 @@
-# Shriya-s-Hackpad
+# Shriya-s-Macropad
 A macropad specifically designed for Roblox. This is a macropad, not a HackPad, as I didn't use the tutorials for it and did it on my own.
 <img width="895" alt="Screenshot 2025-06-28 at 10 21 04 AM" src="https://github.com/user-attachments/assets/cf6d9319-8433-4d0a-ae04-1d18438f1938" />
 <img width="805" alt="Screenshot 2025-06-28 at 10 42 07 AM" src="https://github.com/user-attachments/assets/ac6a8ea6-ba96-4a6e-ae8f-24e9e56dd017" />
