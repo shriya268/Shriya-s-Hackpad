@@ -8,22 +8,15 @@ A macropad specifically designed for Roblox. The keys are necessary to play Robl
 <img width="861" alt="Screenshot 2025-06-28 at 8 43 16 PM" src="https://github.com/user-attachments/assets/fe98580d-0723-4817-bef9-88940802f46e" />
 
 # BOM
-AliExpress
-- 5x M2 4mm Spacers ($1.04)
-- 30x M2 7mm Spacers ($0.99)
-- M2 Scew Set ($0.99)
-    - Has all necessary lengths
-- 100x DO-35 Diode ($0.99)
-- 144x Cherry MX Keycaps ($0.99)
 
-Amazon
-- 23x Cherry MX Red Keyswitches ($9.60)
-    - 20% off discount + Amazon Prime
-
-Keebio
-- 1x Arduino Pro Micro ($7.99)
-
-JLPCB
-- 5x PCB ($5.30)
-
-**TOTAL: $27.89**
+| Source     | Item                            | Quantity                 | Price    | Notes                                 |
+|------------|----------------------------------|--------------------------|----------|----------------------------------------|
+| AliExpress | M2 4mm Spacers                  | 5x                       | $1.04    |                                        |
+| AliExpress | M2 7mm Spacers                  | 30x                      | $0.99    |                                        |
+| AliExpress | M2 Screw Set                    | -                        | $0.99    | Has all necessary lengths              |
+| AliExpress | DO-35 Diodes                    | 100x                     | $0.99    |                                        |
+| AliExpress | Cherry MX Keycaps               | 144x                     | $0.99    |                                        |
+| Amazon     | Cherry MX Red Keyswitches       | 23x                      | $9.60    | 20% off discount + Amazon Prime        |
+| Keebio     | Arduino Pro Micro               | 1x                       | $7.99    |                                        |
+| JLCPCB     | Custom PCBs                     | 5x                       | $5.30    |                                        |
+| **Total**  |                                  |                          | **$27.89** |                                        |
