@@ -24,3 +24,5 @@ Keebio
 
 JLPCB
 - 5x PCB ($5.30)
+
+**TOTAL: $27.89**
