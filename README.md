@@ -1,5 +1,6 @@
 # Shriya-s-Macropad
-A macropad specifically designed for Roblox. This is a macropad, not a HackPad, as I didn't use the tutorials for it and did it on my own.
+A macropad specifically designed for Roblox. The keys are necessary to play Roblox, and having only the necessary keys optimizes gaming performance. This is a macropad, not a HackPad, as I didn't use the tutorials for it and did it on my own. I made this project as a newcomer to PCB designing to learn. I've always found how daily systems such as keyboards work, but this is the first time I've made something like this myself.
+
 <img width="895" alt="Screenshot 2025-06-28 at 10 21 04 AM" src="https://github.com/user-attachments/assets/cf6d9319-8433-4d0a-ae04-1d18438f1938" />
 <img width="805" alt="Screenshot 2025-06-28 at 10 42 07 AM" src="https://github.com/user-attachments/assets/ac6a8ea6-ba96-4a6e-ae8f-24e9e56dd017" />
 <img width="847" alt="Screenshot 2025-06-28 at 10 46 21 AM" src="https://github.com/user-attachments/assets/c85e0397-11bb-49b8-b838-0a7f0c062529" />
