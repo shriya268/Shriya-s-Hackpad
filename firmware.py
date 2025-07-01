@@ -1,32 +1,26 @@
+from kmk.kmk_keyboard import KMKKeyboard
+from kmk.scanners import DiodeOrientation
+
+from kmk.keys import KC
 import board
-import keypad
-import usb_hid
-from adafruit_hid.keyboard import Keyboard
-from adafruit_hid.keycode import Keycode
 
-rows = (board.D5, board.D6, board.D7)
-cols = (board.D2, board.D3, board.D4)
+keyboard = KMKKeyboard()
 
-keys = keypad.KeyMatrix(row_pins=rows, column_pins=cols, columns_to_anodes=False)
+# Define row and column pins
+keyboard.row_pins = (board.D5, board.D6, board.D7)
+keyboard.col_pins = (board.D2, board.D3, board.D4)
 
-kbd = Keyboard(usb_hid.devices)
+# Diode direction: COL2ROW (based on your PCB)
+keyboard.diode_orientation = DiodeOrientation.COL2ROW
 
-keymap = {
-    0: Keycode.ESCAPE,      
-    1: Keycode.UP_ARROW,     
-    2: Keycode.L,           
-    3: Keycode.LEFT_ARROW,   
-    4: Keycode.DOWN_ARROW,   
-    5: Keycode.RIGHT_ARROW,  
-    6: Keycode.SPACEBAR,     
-    7: Keycode.ENTER,        
-    8: Keycode.SHIFT         
-}
+# Layout: 3x3 matrix
+keyboard.keymap = [
+    [
+        KC.ESC,   KC.UP,    KC.L,      # Row 0
+        KC.LEFT,  KC.DOWN,  KC.RIGHT,  # Row 1
+        KC.SPACE, KC.ENTER, KC.LSFT    # Row 2
+    ]
+]
 
-while True:
-    event = keys.events.get()
-    if event:
-        if event.pressed:
-            kbd.press(keymap[event.key_number])
-        elif event.released:
-            kbd.release(keymap[event.key_number])
+if __name__ == '__main__':
+    keyboard.go()
